@@ -35,14 +35,16 @@ Main dimensions of the study are news providers, political entities, time, and t
 6. News source scraping method: Google news rss links
 7. Analysis will purely based on textual data from news articles while entirely ignoring other factors such as news providers funding, advertisers, publishing city, owners, authors,  However, those factors (if accesible) can become the external validation method to see if there are correlations.
 8. Limit to only English and Malay (i.e. latin alphabets)
+9. Limit to only web-based written news.
 
 
-## Expected Challenges
+## Expected Challenges & Limitations
 1. Pay wall
 2. Broken links
 3. Multi languages i.e. English, Malay, Indian, Chinese
 4. Large volume of news articles
 5. Limiting to English and Malay news will inherently produce bias to result [need solution].
+6. In the past news may not be in digital form on website. Therefore bias result. Some news providers may just recently become digital [find out on this].
 
 
 ## Research Methods
@@ -50,12 +52,34 @@ Main dimensions of the study are news providers, political entities, time, and t
 2. Sentiment Analysis
 3. Graph/ Network analysis
 
+### Phase 1: Data Collection
+1. List out
+2. Webscraping
+
+### Phase 2: NLP Pre-processings
+1. NLP Stuffs
+
+### Phase 3: NLP Analysis
+1. Label topics to each article
+2. Label sentiment to each article
+3. Visualize against entities
+
+### Phase 4: Graph Analysis
+1. Create relationship
+2. Network analysis
+3. Rankings
+
+### Phase 5: Time-series Analysis
+1. Label absolute time (date)
+2. Label based on governments (bins) (since 2007 we have like 8 government or something)
+3. Plot
 
 ## Expected Results
 1. News providers political leanings
 2. Topics rankings
 3. Leaning changes through time
 4. Entities rankings (Page rank)
+
 
 ## Conclusion
 Malaysia is a thriving democracy and media is one of the pillar and need to be protected and valued by both the people and the ruling government. Economist categorized Malaysia in 2022 as a [flawed democracy](https://www.economist.com/graphic-detail/2023/02/01/the-worlds-most-and-least-democratic-countries-in-2022) which is at par with the U.S., Italy, and India. I believe in order for Malaysia to move toward mature democracy, people have the right to make free decision to consume media of their choice as long as they fully understand the bias behind the news providers. The knowledge of this bias will also provide the people with the opportunity to escape the echo chamber.
